@@ -25,7 +25,7 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>
+				<section data-background-image="/img/berlin.jpg">
 					<h1>
 						CERTIFIER
 					</h1>
@@ -33,7 +33,100 @@
 						Wild Code School Project
 					</h2>
 				</section>
-				<section>Slide 2</section>
+				<section>
+					<h2>Outline</h2>
+					<ul>
+						<li>Who we are</li>
+						<li>What we do</li>
+						<li>Why certifier?</li>
+						<li>Requirements</li>
+					</ul>
+				</section>
+				<section>
+					<h1>WHO WE ARE</h1>
+				</section>
+				<section>
+					<h2>EdEra</h2>
+					<p class="fragment">Non-profit</p>
+					<p class="fragment">Online education studio</p>
+					<p class="fragment">Based in Ukraine 🇺🇦</p>
+				</section>
+				<section>
+					<h2>SMONLEAP - smart online profit platform</h2>
+					<p class="fragment">Startup based in Berlin</p>
+					<p class="fragment">Develops learning platform for corporate L&D</p>
+					<p class="fragment">Looking for investment! ❗️</p>
+				</section>
+				<section>
+					<h1>WHAT WE DO</h1>
+				</section>
+				<section>
+					<h2>Online education studio</h2>
+					<p class="fragment">Different types of educational projects</p>
+					<ul>
+						<li class="fragment">MOOCs</li>
+						<li class="fragment">Videos</li>
+						<li class="fragment">Interactive books</li>
+						<li class="fragment">Educational blogs</li>
+						<li class="fragment">Blended learning and offline events</li>
+					</ul>
+				</section>
+				<section>
+					<h1>WHY CERTIFIER</h1>
+				</section>
+				<section>
+					<h2>Sometimes our online students receive certificates</h2>
+					<p class="fragment">For classic MOOCs this feature is integrated in the platform</p>
+					<p class="fragment">For non-standard format (simple web page with couple of videos and text) it's trickier</p>
+				</section>
+				<section data-background-image="/img/certifyem.png">
+					<p>Certify'em</p>
+					<ul>
+						<li class="fragment">Final exam should be in Google Forms</li>
+						<li class="fragment">Not really flexible when it comes to templates</li>
+					</ul>
+				</section>
+				<section>
+					<h1>CERTIFIER - REQUIREMENTS</h1>
+				</section>
+				<section>
+					<h2>General information ✅</h2>
+					<p class="fragment">A tool that allows students to generate their certificate of completion of a given online course 🏆</p>
+					<p class="fragment">An admin defines the template and a list of people who finished the course 📝</p>
+					<p class="fragment">Students open a given link and their certificate is generated 🔗</p>
+				</section>
+				<section>
+					<h2>As an admin</h2>
+					<ul>
+						<li>I want to select a template</li>
+						<li>I want to fill in the course information</li>
+						<li>I want to upload the list of students eligible for certification</li>
+					</ul>
+				</section>
+				<section>
+					<h2>Certificate Templates</h2>
+					<ul>
+						<li>Should contain the course name</li>
+						<li>Should contain the logo of the institution (course issuer)</li>
+						<li>Should contain the length of the course in hours</li>
+					</ul>
+				</section>
+				<section>
+					<h2>As a student</h2>
+					<ul>
+						<li>Receives the email with the link</li>
+						<li>Opens the link</li>
+						<li>Ta-da the certificate is generated</li>
+						<li>The student can print it or download as a PDF</li>
+					</ul>
+				</section>
+				<section data-background-image="/img/certificate.png" data-background-size="80%"></section>
+				<section>
+					<h1>❓</h1>
+				</section>
+				<section>
+					<h1>😻</h1>
+				</section>
 			</div>
 		</div>
 
@@ -44,6 +137,7 @@
 			// - https://github.com/hakimel/reveal.js#configuration
 			// - https://github.com/hakimel/reveal.js#dependencies
 			Reveal.initialize({
+				history: true,
 				dependencies: [
 					{ src: 'plugin/markdown/marked.js' },
 					{ src: 'plugin/markdown/markdown.js' },
